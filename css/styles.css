@@ -306,7 +306,7 @@ section {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 1rem;
     line-height: 1.5rem;
     flex: 1;
     background: white;
@@ -452,4 +452,30 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+
+
+
+
+/* Centers the row of tags inside your card */
+.tech-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;              /* Puts space between each bubble */
+    margin-top: 12px;      /* Puts space under your project title */
+    margin-bottom: 18px;   /* Puts space above your buttons */
+    flex-wrap: wrap;       /* Keeps layout clean if viewed on a phone */
+}
+
+/* Styles each tag into a beautiful gray rounded pill */
+.tech-tag {
+    background-color: #f3f4f6; /* Clean light gray background */
+    color: #4b5563;            /* Soft dark gray text for contrast */
+    font-size: 11px;           /* Perfect micro-text size */
+    font-weight: 600;          /* Makes tech names easy to read */
+    padding: 4px 12px;         /* Adds breathing room inside the pill */
+    border-radius: 50px;       /* Gives it smooth, fully rounded edges */
+    letter-spacing: 0.5px;     /* Slight spacing for a polished look */
 }
